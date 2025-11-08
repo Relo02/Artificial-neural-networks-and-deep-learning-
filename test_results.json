@@ -1,0 +1,35 @@
+{
+  "test_accuracy": 0.88,
+  "test_precision": 0.8905,
+  "test_recall": 0.88,
+  "test_f1": 0.8715018315018314,
+  "per_class_f1": [
+    0.9487179487179487,
+    0.6666666666666666,
+    0.5714285714285714
+  ],
+  "confusion_matrix": [
+    [
+      37,
+      1,
+      0
+    ],
+    [
+      2,
+      5,
+      0
+    ],
+    [
+      1,
+      2,
+      2
+    ]
+  ],
+  "model_params": {
+    "rnn_type": "LSTM",
+    "hidden_size": 80,
+    "num_layers": 2,
+    "bidirectional": true,
+    "total_params": 231523
+  }
+}
