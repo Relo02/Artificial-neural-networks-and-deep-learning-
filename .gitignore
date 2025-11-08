@@ -4,3 +4,4 @@ pirate_pain_train_labels.csv
 pirate_pain_test.csv
 sample_submission.csv
 configs/
+models/
