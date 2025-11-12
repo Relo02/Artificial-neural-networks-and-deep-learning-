@@ -5,3 +5,6 @@ pirate_pain_test.csv
 sample_submission.csv
 configs/
 tensorboard/
+submissions/
+models/
+configs/
