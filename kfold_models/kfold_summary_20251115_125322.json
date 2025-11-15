@@ -1,0 +1,62 @@
+{
+  "timestamp": "20251115_125322",
+  "n_splits": 5,
+  "stratified": true,
+  "random_state": 42,
+  "saved_models": [
+    {
+      "fold_idx": 1,
+      "filename": "kfold_model_fold1_F10.972_20251115_125322.pt",
+      "val_f1": 0.971607260416272,
+      "train_f1": 0.8816807350675336,
+      "val_acc": 0.9598393574297188,
+      "best_epoch": 53,
+      "file_size_mb": 0.2047557830810547
+    },
+    {
+      "fold_idx": 2,
+      "filename": "kfold_model_fold2_F10.959_20251115_125322.pt",
+      "val_f1": 0.9590043101301502,
+      "train_f1": 0.9348705213960705,
+      "val_acc": 0.9257028112449799,
+      "best_epoch": 58,
+      "file_size_mb": 0.2047557830810547
+    },
+    {
+      "fold_idx": 3,
+      "filename": "kfold_model_fold3_F10.955_20251115_125322.pt",
+      "val_f1": 0.9546731091195394,
+      "train_f1": 0.9251697221869627,
+      "val_acc": 0.9377510040160643,
+      "best_epoch": 51,
+      "file_size_mb": 0.2047557830810547
+    },
+    {
+      "fold_idx": 4,
+      "filename": "kfold_model_fold4_F10.967_20251115_125322.pt",
+      "val_f1": 0.9672407578215627,
+      "train_f1": 0.915141737287666,
+      "val_acc": 0.9598393574297188,
+      "best_epoch": 77,
+      "file_size_mb": 0.2047557830810547
+    },
+    {
+      "fold_idx": 5,
+      "filename": "kfold_model_fold5_F10.978_20251115_125322.pt",
+      "val_f1": 0.9782401832331996,
+      "train_f1": 0.9178498452308202,
+      "val_acc": 0.8975903614457831,
+      "best_epoch": 96,
+      "file_size_mb": 0.2047557830810547
+    }
+  ],
+  "overall_summary": {
+    "mean_val_f1": 0.9661531241441448,
+    "std_val_f1": 0.008484383698128475,
+    "mean_val_acc": 0.9361445783132529,
+    "mean_best_epoch": 67.0,
+    "total_models": 5,
+    "best_fold": 5,
+    "best_f1": 0.9782401832331996
+  }
+}
